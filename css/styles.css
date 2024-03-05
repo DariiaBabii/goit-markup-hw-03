@@ -151,9 +151,13 @@ img {
   gap: 24px;
 }
 
+.advantages-list li {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .advantages-list-items-title {
   color: var(--dark-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 /* Headings and text */
 .heading-one {
@@ -169,6 +173,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .heading-three {
@@ -176,6 +181,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 .body {
@@ -216,7 +222,6 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-top: 72px;
 }
 
 .team-member-list {
@@ -236,13 +241,16 @@ img {
   margin-bottom: 8px;
 }
 
+/* portfolio-cards */
+
+.portfolio {
+  padding-bottom: 120px;
+}
 .portfolio-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title,
@@ -257,12 +265,12 @@ img {
 /* Portfolio-page */
 
 .portfolio-page {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .menu {
   display: flex;
-  margin-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
   gap: 24px;
@@ -301,8 +309,6 @@ img {
   background-color: var(--primary-brand);
   color: var(--white-color);
   padding: 16px 32px;
-  margin-left: 636px;
-  margin-right: 635px;
 }
 
 .button.button-order:focus,
